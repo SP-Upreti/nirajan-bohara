@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  font-size: 1.2em;
+}
+.btn button {
+  text-transform: capitalize;
+  background-image: linear-gradient(rgb(176, 2, 245), rgba(0, 0, 255, 0.823));
+  color: white;
+  padding: 16px 32px;
+  border-radius: 10px;
+}
